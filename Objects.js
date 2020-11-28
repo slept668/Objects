@@ -38,6 +38,7 @@ const template = top5.map(top => `
     <p>Released: ${top.year}</p>
     <p>Director: ${top.director}</p>
     <img src="${top.pic}">
+>/li>
 `);
 
 console.log(template);
